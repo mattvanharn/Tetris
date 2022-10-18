@@ -1,3 +1,10 @@
+.container {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  justify-content: space-between;
+}
+
 .grid {
   width: 200px;
   height: 400px;
@@ -13,4 +20,18 @@
 
 .tetromino {
   background-color: blue;
+}
+
+.preview {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.preview div {
+  height: 20px;
+  width: 20px;
 }
